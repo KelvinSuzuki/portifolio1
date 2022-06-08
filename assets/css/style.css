@@ -1,0 +1,36 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background: #000618;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #1e0072 , rgb(0, 37, 46));
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  color: #fff;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.navbar a {
+  color: #FFF;
+  padding: 20px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.main-frame {
+  content: 1fr;
+  color: #FFF;
+}
+
+.footer {
+  background-color: black;
+  color: #FFF;
+}
